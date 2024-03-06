@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"content="Daniel Cardales">
+    <meta name="Description"content="inforacion sobre precios y productos en la ciudad de cartagena">
+    <meta name="keywords"content="turismo cardatgena,precios,informacion">
+    <title>loguin</title>
+</head>
+<body>
+    <h2>Crear Producto</h2>
+    <form id="CrearProducto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="precioMin">Precio Mínimo:</label>
+        <input type="text" id="precioMin" name="precioMin" step="0.01" required><br><br>
+        
+        <label for="precioMax">Precio Máximo:</label>
+        <input type="text" id="precioMax" name="precioMax" step="0.01" required><br><br>
+        
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria" required>
+            <option value="Bebidas">Bebidas</option>
+            <option value="Servicios">Servicios</option>
+            <option value="Alimentos">Alimentos</option>
+            
+        </select><br><br>
+        
+        <button type="submit">Crear Producto</button>
+    </form>
+
+</body>

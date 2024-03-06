@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"content="Daniel Cardales">
+    <meta name="Description"content="inforacion sobre precios y productos en la ciudad de cartagena">
+    <meta name="keywords"content="turismo cardatgena,precios,informacion">
+    <title>loguin</title>
+</head>
+<body>
+    <h2>Editar Producto</h2>
+    <form id="formEditarProducto">
+        <label for="editarNombre">Nuevo Nombre:</label>
+        <input type="text" id="editarNombre" name="editarNombre"><br><br>
+        
+        <label for="editarPrecioMin">Nuevo Precio Mínimo:</label>
+        <input type="number" id="editarPrecioMin" name="editarPrecioMin" step="0.01"><br><br>
+        
+        <label for="editarPrecioMax">Nuevo Precio Máximo:</label>
+        <input type="number" id="editarPrecioMax" name="editarPrecioMax" step="0.01"><br><br>
+        
+        <label for="editarCategoria">Nueva Categoría:</label>
+        <select id="editarCategoria" name="editarCategoria">
+            <option value="Electrónica">Electrónica</option>
+            <option value="Ropa">Ropa</option>
+            <option value="Alimentos">Alimentos</option>
+        
+        </select><br><br>
+        
+        <button type="submit">Editar Producto</button>
+    </form>
+
+</body>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Cardales">
+    <meta name="Description" content="inforacion sobre precios y productos en la ciudad de cartagena">
+    <meta name="keywords" content="turismo cardatgena,precios,informacion">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    </head>
+
+    <body>
+        <form action="#" method="post">
+            <h2>Crear Usuario</h2>
+            <label for="tipo_identificacion">Tipo Identificación</label>
+            <select name="tipo_identificacion" id="tipo_identificacion">
+                <option value="CC">CC</option>
+                <!-- Otras opciones aquí -->
+            </select>
+
+            <label for="identificacion">Identificación</label>
+            <input type="text" id="identificacion" name="identificacion" placeholder="Digite Identificación">
+
+            <label for="nombres">Nombres</label>
+            <input type="text" id="nombres" name="nombres" placeholder="Digite Nombres">
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Digite Apellidos">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite Email">
+
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Digite Teléfono">
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+            </select>
+
+            <label for="perfil">Perfil</label>
+            <select name="perfil" id="perfil">
+                <option value="admin">Admin</option>
+                <option value="usuario">Usuario</option>
+            </select>
+
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Digite Usuario">
+
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Digite Contraseña">
+
+            <input type="submit" value="Registrar">
+        </form>
+    </body>
+
+</html>
