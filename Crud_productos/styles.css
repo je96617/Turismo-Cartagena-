@@ -1,0 +1,61 @@
+body{
+    margin: 1opx;
+    padding: 10px;
+    background: url(playa.avif);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+#formulario {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#formulario label,
+#formulario input,
+#formulario button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#btnAgregar {
+    background-color: #3498DB;
+    color: wheat;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+}
+
+#btnAgregar:hover {
+    background-color: #45a049;
+}
+
+.lista-productos {
+    list-style: none;
+    padding: 0;
+}
+
+.producto {
+    border: 1px solid #d32020;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#listaProductos li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-editar,
+.btn-eliminar {
+    background-color: #3498DB;
+    color: b;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-editar:hover,
+.btn-eliminar:hover {
+    background-color: #3498DB;
+}
